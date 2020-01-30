@@ -14,6 +14,7 @@
 		6BE7A1AA23D57FCE0025BE96 /* todolist2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6BE7A1A823D57FCE0025BE96 /* todolist2.xcdatamodeld */; };
 		6BE7A1AC23D57FD60025BE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BE7A1AB23D57FD60025BE96 /* Assets.xcassets */; };
 		6BE7A1AF23D57FD60025BE96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE7A1AD23D57FD60025BE96 /* LaunchScreen.storyboard */; };
+		6BE7A1B723D5811A0025BE96 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE7A1B623D5811A0025BE96 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6BE7A1AB23D57FD60025BE96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BE7A1AE23D57FD60025BE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BE7A1B023D57FD60025BE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BE7A1B623D5811A0025BE96 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				6BE7A1A123D57FCE0025BE96 /* SceneDelegate.swift */,
 				6BE7A1A323D57FCE0025BE96 /* ViewController.swift */,
 				6BE7A1A523D57FCE0025BE96 /* Main.storyboard */,
+				6BE7A1B623D5811A0025BE96 /* AddView.swift */,
 				6BE7A1AB23D57FD60025BE96 /* Assets.xcassets */,
 				6BE7A1AD23D57FD60025BE96 /* LaunchScreen.storyboard */,
 				6BE7A1B023D57FD60025BE96 /* Info.plist */,
@@ -143,6 +146,7 @@
 			files = (
 				6BE7A1A423D57FCE0025BE96 /* ViewController.swift in Sources */,
 				6BE7A1A023D57FCE0025BE96 /* AppDelegate.swift in Sources */,
+				6BE7A1B723D5811A0025BE96 /* AddView.swift in Sources */,
 				6BE7A1AA23D57FCE0025BE96 /* todolist2.xcdatamodeld in Sources */,
 				6BE7A1A223D57FCE0025BE96 /* SceneDelegate.swift in Sources */,
 			);
@@ -289,12 +293,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KD92ZK28V6;
 				INFOPLIST_FILE = todolist2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = AB.todolist2;
+				PRODUCT_BUNDLE_IDENTIFIER = AB.B.B.todolist2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,12 +311,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KD92ZK28V6;
 				INFOPLIST_FILE = todolist2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = AB.todolist2;
+				PRODUCT_BUNDLE_IDENTIFIER = AB.B.B.todolist2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
